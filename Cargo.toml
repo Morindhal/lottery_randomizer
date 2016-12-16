@@ -1,0 +1,7 @@
+[package]
+name = "lottery-randomizer"
+version = "1.0.0"
+authors = ["Morindhal <Morindhal@gmail.com>"]
+
+[dependencies]
+rand = "0.3.14"
