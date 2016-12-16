@@ -31,7 +31,7 @@ fn main()
         'last_two: loop
         {
             number = rng.gen_range(1i8, 10i8);
-            if check_unique(number, &row[0..i])
+            if check_unique(number, &row[5..i])
             {
                 row[i] = number;
                 break 'last_two;
